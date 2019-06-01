@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        section {
+            position: relative;
+            width: 450px;
+            height: 300px;
+            margin: 100px auto;
+            border: 1px solid #000;
+            margin: 100 auto;
+            background: url(./animal.jpg) no-repeat;
+            background-size: 100% 100%;
+            perspective: 1000px;
+            /*  给父盒子添加透视效果，使其具有立体效果 */
+        }
+        
+        .door-left,
+        .door-right {
+            position: absolute;
+            top: 0;
+            width: 50%;
+            height: 100%;
+            background: url(./door.jpg) no-repeat;
+            background-size: 100% 100%;
+            transition: all 1s;
+            /* 实现动画效果 */
+        }
+        
+        .door-left {
+            left: 0;
+            border-right: 1px solid #000;
+            transform-origin: left;
+            /* 左侧盒子，按左边翻转 */
+        }
+        
+        .door-right {
+            right: 0;
+            border-left: 1px solid #000;
+            transform-origin: right;
+            /* 右侧盒子，按右边翻转 */
+        }
+        /* 伪元素设置开门的把手 */
+        
+        .door-left::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            /* 设置把手垂直居中 */
+        }
+        
+        .door-right::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #000;
+            border-radius: 50%;
+            transform: translateY(-50%);
+            /* 设置把手垂直居中 */
+        }
+        
+        section:hover .door-left {
+            transform: rotateY(-130deg);
+        }
+        
+        section:hover .door-right {
+            transform: rotateY(130deg);
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="door-left">
+        </div>
+
+        <div class="door-right">
+        </div>
+    </section>
+</body>
+
+</html>
