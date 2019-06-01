@@ -16,7 +16,7 @@
         }
         
         nav {
-            width: 80%;
+            width: 1200;
             height: 86px;
             margin: 100px auto;
         }
@@ -33,6 +33,7 @@
         nav ul {
             width: 800%;
             animation: moving 5s linear infinite;
+            overflow: hidden;
         }
         
         @keyframes moving {
@@ -42,6 +43,10 @@
             to {
                 transform: translate(-1200px);
             }
+        }
+        
+        nav:hover ul {
+            animation-play-state: paused;
         }
     </style>
 </head>
