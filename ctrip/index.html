@@ -64,16 +64,20 @@
             display: -webkit-flex;
             flex-direction: column;
             -ms-flex-direction: column;
-            justify-content: center;
-            align-items: center;
         }
         
         .hotel a {
             /* 如果父亲使用了，flex布局，那么子元素可以直接使用flex布局中的属性 */
             flex: 1;
-            font-size: 18px;
+            line-height: 45px;
+            font-size: 16px;
             color: #fff;
             text-align: center;
+            text-decoration: none;
+        }
+        
+        .hotel a:first-child {
+            border-bottom: 1px solid #fff;
         }
     </style>
 </head>
@@ -90,7 +94,10 @@
                 <a href="#">海外酒店</a>
                 <a href="#">特价酒店</a>
             </div>
-            <div class="row3">3</div>
+            <div class="row3 hotel">
+                <a href="#">团购</a>
+                <a href="#">同福客栈</a>
+            </div>
         </div>
     </nav>
 </body>
