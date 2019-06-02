@@ -41,10 +41,17 @@
         }
         
         .row {
+            display: flex;
+            display: -webkit-flex;
             width: 100%;
             height: 90px;
             background-color: skyblue;
             border-radius: 8px;
+        }
+        
+        .row .row3 {
+            /* 孩子每人占一份 */
+            flex: 1;
         }
     </style>
 </head>
