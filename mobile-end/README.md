@@ -24,5 +24,7 @@ px 实际的网页的尺寸大小
 
 主要的原因就是有些屏幕看起来会很粗的
 
+1. `<font red>border-image</font>`
+
 
 
