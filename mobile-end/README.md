@@ -26,5 +26,18 @@ px 实际的网页的尺寸大小
 
 1. `border-image`
 
+```
+   .border_1px{
+          border-bottom: 1px solid #000;
+        }
+        @media only screen and (-webkit-min-device-pixel-ratio:2){
+            .border_1px{
+                border-bottom: none;
+                border-width: 0 0 1px 0;
+                border-image: url(../img/1pxline.png) 0 0 2 0 stretch;
+            }
+        }
+```
+
 
 
