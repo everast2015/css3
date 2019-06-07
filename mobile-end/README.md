@@ -85,7 +85,7 @@ px 实际的网页的尺寸大小
     input, textarea {
         border: none;
         outline: none;
-        /* 去掉textarea 右下角的小箭头 */
+        /* 不允许改变尺寸 */
         resize: none; 
     }
 
