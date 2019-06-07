@@ -42,4 +42,4 @@ px 实际的网页的尺寸大小
 
 移动web浏览器的注意事项：
 
-1. 可以使用`<font color="#dd0000">jquery</font>` 但是不建议。
+1. 可以使用<font color="#dd0000">jquery</font> 但是不建议。
