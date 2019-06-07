@@ -50,3 +50,13 @@ px 实际的网页的尺寸大小
 
 
 ## 移动端reset重置样式
+
+```css
+    *,
+    *::before,
+    *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+```
