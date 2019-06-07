@@ -92,4 +92,11 @@ px 实际的网页的尺寸大小
         -webkit-appearance: none;
     }
 
+    .f-left {
+        float: left;
+    }
+    .f-right {
+        float: right;
+    }
+
 ```
