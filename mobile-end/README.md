@@ -92,11 +92,25 @@ px 实际的网页的尺寸大小
         -webkit-appearance: none;
     }
 
+    /* 
+        下面的是公共的样式
+     */
+
     .f-left {
         float: left;
     }
     .f-right {
         float: right;
+    }
+    /* 清除浮动的效果 */
+    .clearfix::before,
+    .clearfix::after {
+        content: "";
+        display: block;
+        visibility: hidden;
+        height: 0;
+        line-height: 0;
+        clear: both;
     }
 
 ```
