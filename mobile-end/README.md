@@ -62,6 +62,7 @@ px 实际的网页的尺寸大小
         box-sizing: border-box;
 
         /* 清除移动端点击高亮的效果 */
+        tap-hightlight-color: transparent;
         -webkit-tap-hightlight-color: transparent;
     }
 ```
