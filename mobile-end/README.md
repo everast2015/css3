@@ -65,4 +65,15 @@ px 实际的网页的尺寸大小
         tap-hightlight-color: transparent;
         -webkit-tap-hightlight-color: transparent;
     }
+
+    /* 移动端的字体设置 */
+    body {
+        font-size: 14px;
+        font-family: "Microsoft Yahei",sans-serif;
+        color: #333;
+    }
+
+    ul,ol {
+        list-style: none;
+    }
 ```
