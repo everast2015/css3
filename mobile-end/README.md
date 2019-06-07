@@ -81,4 +81,12 @@ px 实际的网页的尺寸大小
         text-decoration: none;
         color: #333;
     }
+
+    input, textarea {
+        border: none;
+        outline: none;
+        /* 去掉textarea 右下角的小箭头 */
+        resize: none; 
+    }
+
 ```
