@@ -87,6 +87,9 @@ px 实际的网页的尺寸大小
         outline: none;
         /* 不允许改变尺寸 */
         resize: none; 
+        /* 元素的外观 */
+        appearance: none;
+        -webkit-appearance: none;
     }
 
 ```
