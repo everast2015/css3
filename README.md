@@ -34,6 +34,19 @@
         /* 混合版本语法：IE10 */
         display: -ms-flexbox;
     }
+
+    .flex1 {
+        /* Chrome */
+        -webkit-flex: 1; 
+        /* IE10 */
+        -ms-flex: 1;
+        /* Opear 12.1,Firefox 20+ */
+        flex: 1;
+        /* IOS6, Safari 3.1-6 */
+        -webkit-box-flex: 1;
+        /* Firefox 19- */
+        -moz-box-flex: 1;
+    }
 ```
 
 ### 开门大吉源码
