@@ -8,6 +8,9 @@
 
 兼容性问题
 
+- Android 
+    - 2.3 开始支持旧版本的`display: --webkit-flex`
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
