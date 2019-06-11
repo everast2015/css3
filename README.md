@@ -4,6 +4,8 @@
     - door-open 开门大吉源码
     - seamless-scrolling 无缝滚动源码
 
+## css3 flex 布局
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
@@ -15,4 +17,4 @@
 
 ![门打开时的效果](https://github.com/yjn2015/CSS3/blob/master/door-open/door-open.png)
 
-## CSS3 效果
+
