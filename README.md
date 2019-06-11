@@ -25,10 +25,13 @@
     .box {
         /* 新版本语法：chrome 21+ */
         display: -webkit-flex; 
-        
+        /* 新版本语法：Opear 12.1,Firefox 22+ */
         display: flex; 
+        /* 老版本语法：safari,Android browser,older Webkit browsers */
         display: -webkit-box;
+        /* 老版本语法: Firefox (buggy) */
         display: -moz-box;
+        /* 混合版本语法：IE10 */
         display: -ms-flexbox;
     }
 ```
