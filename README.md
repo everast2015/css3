@@ -49,6 +49,9 @@
     }
 ```
 
+浏览器兼容的`flex` 语法：
+
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
