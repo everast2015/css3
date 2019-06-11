@@ -6,6 +6,8 @@
 
 ## css3 flex 布局
 
+兼容性问题
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
