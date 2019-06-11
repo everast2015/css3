@@ -84,7 +84,6 @@
     display: -ms-flexbox;   /* 混合版本语法: IE 10 */
  
 }
-浏览器兼容的flex语法
 /* 子元素-平均分栏 */
 .flex1 {
   -webkit-box-flex: 1;      /* OLD - iOS 6-, Safari 3.1-6 */
