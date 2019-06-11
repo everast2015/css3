@@ -9,15 +9,29 @@
 兼容性问题
 
 - Android 
-    - 2.3 开始支持旧版本的`display: --webkit-flex`
+    - 2.3 开始支持旧版本的`display: -webkit-flex`
     - 4.4 开始支持标准版本的`display: flex`
 
 - IOS 
-    - 6.1 开始支持旧版本的 `display: --webkit-flex`
+    - 6.1 开始支持旧版本的 `display: -webkit-flex`
     - 7.1 开始支持标准版本的`display: flex`
 
 - PC
     - `IE10`开始支持，但是`IE10` 的是`-ms`形式的。
+
+兼容性的写法：
+
+```css
+    .box {
+        /* 新版本语法：chrome 21+ */
+        display: -webkit-flex; 
+        
+        display: flex; 
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+    }
+```
 
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
