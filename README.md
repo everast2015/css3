@@ -202,6 +202,8 @@
 3. 原因在移动设备中，浏览器和网页之间，还有一层虚拟的容器，这个容器叫 `viewport`
 4. `viewport` 只有移动设备才有，而且主流设备当中的`viewport`默认宽度为980px，可以缩放
 
+## 使用viewport 进行移动端的适配
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
