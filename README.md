@@ -213,6 +213,10 @@
 1. 怎么设置`viewport`
 2. 具体的功能怎么实现
 
+```css
+<meta name="viewport" />
+```
+
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
 
