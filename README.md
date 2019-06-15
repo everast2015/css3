@@ -214,7 +214,7 @@
 2. 具体的功能怎么实现
 
 ```css
-<meta name="viewport" />
+<meta name="viewport" content="width=device-width"/>
 ```
 
 ### 开门大吉源码
