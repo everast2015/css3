@@ -1,0 +1,44 @@
+/* 
+    reset css 重置样式
+*/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    /* 针对移动端 */
+    box-sizing: border-box;
+    /* 主流浏览器兼容处理，移动端的浏览器通常的话，都是基于webkit效果的 */
+    -webkit-box-sizing: border-box;
+    /* 清除移动端浏览器的高亮效果 */
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    font-family: 'Microsoft Yahei', sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+input,
+textarea {
+    outline: none;
+    border: none;
+}
+
+
+/* 
+
+    common css 公有样式
+*/
