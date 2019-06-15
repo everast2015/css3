@@ -211,6 +211,9 @@
 
 去完成这个标准化的设置：
 1. 怎么设置`viewport`
+```css
+<meta name="viewport" content="width=device-width,initial-scale="1.0",minimun-scale="1.0",user-scale="no"/>
+```
 2. 具体的功能怎么实现
 
 属性 | 属性描述 | 值表示的含义
@@ -221,9 +224,7 @@ user-scale | 设置视口是否允许用户自动缩放 | 0 表示否，1表示�
 minium-scale | 最小允许缩放比
 maximum-scale | 最大允许缩放比
 
-```css
-<meta name="viewport" content="width=device-width,initial-scale="1.0",minimun-scale="1.0",user-scale="no"/>
-```
+
 
 ### 开门大吉源码
 [door-open](https://github.com/yjn2015/CSS3)
