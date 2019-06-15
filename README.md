@@ -216,8 +216,8 @@
 属性 | 属性描述 |
 ---------|----------|
 width | 设置视口的宽度 | 
- initial-scale | 设置视口的默认的缩放比 | 
- A3 | B3 | 
+initial-scale | 设置视口的默认的缩放比 | 
+ user-scale | 设置视口是否允许用户自动缩放 | 
 
 ```css
 <meta name="viewport" content="width=device-width"/>
