@@ -213,6 +213,12 @@
 1. 怎么设置`viewport`
 2. 具体的功能怎么实现
 
+属性 | 属性描述 |
+---------|----------|
+ A1 | B1 | 
+ A2 | B2 | 
+ A3 | B3 | 
+
 ```css
 <meta name="viewport" content="width=device-width"/>
 ```
