@@ -31,3 +31,10 @@
     position: absolute;
     top: 0;
 }
+
+.jd-search-box h1 a.icon-logo {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background: url(../images/buy-logo.png) no-repeat;
+}
