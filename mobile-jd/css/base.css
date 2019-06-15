@@ -35,6 +35,10 @@ input,
 textarea {
     outline: none;
     border: none;
+    /* 禁止textarea的右下角的放大效果 */
+    resize: none;
+    /* 清除移动端输入框特有的样式 */
+    -webkit-appearance: none;
 }
 
 
@@ -42,3 +46,28 @@ textarea {
 
     common css 公有样式
 */
+
+.f-left {
+    float: left;
+}
+
+.f-rightb {
+    float: right;
+}
+
+.clearfix::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.mr10 {
+    margin-right: 10px;
+}
