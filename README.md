@@ -213,11 +213,11 @@
 1. 怎么设置`viewport`
 2. 具体的功能怎么实现
 
-属性 | 属性描述 |
+属性 | 属性描述 | 值表示的含义
 ---------|----------|
 width | 设置视口的宽度 devive-width 表示当前设备的宽度| 
 initial-scale | 设置视口的默认的缩放比 | 
-user-scale | 设置视口是否允许用户自动缩放 | 
+user-scale | 设置视口是否允许用户自动缩放 | 0 表示否，1表示是，no表示不允许，yes表示允许
 minium-scale | 最小允许缩放比
 maximum-scale | 最大允许缩放比
 
