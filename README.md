@@ -222,7 +222,7 @@ minium-scale | 最小允许缩放比
 maximum-scale | 最大允许缩放比
 
 ```css
-<meta name="viewport" content="width=device-width"/>
+<meta name="viewport" content="width=device-width,initial-scale="1.0",minimun-scale="1.0",user-scale="no"/>
 ```
 
 ### 开门大吉源码
