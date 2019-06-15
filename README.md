@@ -215,7 +215,7 @@
 
 属性 | 属性描述 |
 ---------|----------|
-width | 设置视口的宽度 | 
+width | 设置视口的宽度 devive-width 表示当前设备的宽度| 
 initial-scale | 设置视口的默认的缩放比 | 
 user-scale | 设置视口是否允许用户自动缩放 | 
 minium-scale | 最小允许缩放比
