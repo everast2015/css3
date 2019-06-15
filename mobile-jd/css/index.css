@@ -1,0 +1,8 @@
+@charset "UTF-8";
+.jd-container {
+    max-width: 640px;
+    min-width: 320px;
+    margin: 0 auto;
+    height: 200px;
+    background: skyblue;
+}
