@@ -5,7 +5,6 @@
     min-width: 320px;
     margin: 0 auto;
     height: 200px;
-    background: skyblue;
 }
 
 
@@ -32,8 +31,7 @@
     top: 0;
 }
 
-.jd-search-box h1 a.icon-logo {
-    display: inline-block;
+.jd-search-box h1 .icon-logo {
     width: 60px;
     height: 40px;
     background: url(../images/buy-logo.png) no-repeat;
