@@ -227,3 +227,14 @@ maximum-scale | 最大允许缩放比
 ## 垂直居中解决方案
 1. 基于决定定位的解决方案（定宽+定高）
 
+```css
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  /* 6/2 = 3 */
+  margin-left: -3em; 
+}
+
+```
+
