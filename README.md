@@ -232,10 +232,10 @@ main {
   position: absolute;
   top: 50%;
   left: 50%;
+  /*18/2 = 9  */
+  margin-left: -9em;
   /* 6/2 = 3 */
-  margin-left: -3em;
-   /*18/2 = 9  */
-  margin-top: -9em;
+  margin-top: -3em;
   width: 18em;
   height: 6em;
 }
