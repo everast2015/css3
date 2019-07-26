@@ -249,6 +249,8 @@ main {
   position: absolute;
   top: calc(50% - 3em);
   left: calc(50% - 9em);
+  width: 18em;
+  height: 6em;
 }
 ```
 
