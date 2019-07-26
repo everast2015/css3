@@ -282,3 +282,16 @@ main {
 ```
 
 3. 基于`Flexbox`的解决方案
+
+```css
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+}
+main {
+  margin: auto;
+}
+
+```
+
