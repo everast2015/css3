@@ -233,7 +233,9 @@ main {
   top: 50%;
   left: 50%;
   /* 6/2 = 3 */
-  margin-left: -3em; 
+  margin-left: -3em;
+   /*18/2 = 9  */
+  margin-top: -9em;
 }
 
 ```
