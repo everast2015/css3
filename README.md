@@ -236,6 +236,8 @@ main {
   margin-left: -3em;
    /*18/2 = 9  */
   margin-top: -9em;
+  width: 18em;
+  height: 6em;
 }
 
 ```
