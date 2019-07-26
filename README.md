@@ -313,5 +313,17 @@ main {
 
 ```css
 
+<header>
+  <h1>site name</h1>
+</header>
 
+<main>
+  <p>
+    数据类型的
+  </p>
+</main>
+
+<footer>
+
+</footer>
 ```
