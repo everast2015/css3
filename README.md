@@ -311,7 +311,7 @@ main {
 
 1. 固定高度的解决方案
 
-```css
+```html
 
 <header>
   <h1>site name</h1>
@@ -326,4 +326,12 @@ main {
 <footer>
 
 </footer>
+```
+
+```css
+
+main {
+  min-height: calc(100vh - 2.5em - 7em);
+}
+
 ```
