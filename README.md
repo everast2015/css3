@@ -295,3 +295,14 @@ main {
 
 ```
 请注意，当我们使用`Flexbox` 时，`margin: auto` 不仅在水平方向上将元素居中，垂直方向上也是如此。
+
+```css
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18em;
+  height: 18em;
+}
+
+```
