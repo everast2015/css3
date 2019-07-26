@@ -245,6 +245,10 @@ main {
 
 同时还可以利用`calc()`函数
 ```css
-
+main {
+  position: absolute;
+  top: calc(50% - 3em);
+  left: calc(50% - 9em);
+}
 ```
 
