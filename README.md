@@ -271,3 +271,12 @@ main {
 2. 基于视口单位的解决方案
 
 `vw`是与视口宽度相关的，与常人的直觉不符的是，`1vw` 实际上表示视口宽度的`1%`，而不是`100%`
+
+```css
+main {
+  width: 18em;
+  padding: 1em 1.5em;
+  margin: 50vh auto 0;
+  transform: translate(-50%);
+}
+```
