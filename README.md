@@ -224,5 +224,5 @@ user-scale | 设置视口是否允许用户自动缩放 | 0 表示否，1表示�
 minium-scale | 最小允许缩放比
 maximum-scale | 最大允许缩放比
 
-
+## 垂直居中解决方案
 
