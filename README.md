@@ -258,3 +258,12 @@ main {
 
 答案来源于`css`变形属性，当我们在`translate()` 变形函数中使用百分比值时，而这正是我们所需要的
 
+```css
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+```
