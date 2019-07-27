@@ -364,7 +364,7 @@ main {
 
 2. 哪些元素会具有`BFC`的条件
 
-> 不是所有的元素模式都能产生`BFC`，`W3C`规范：`display` 属性为`block` 、`list-item` 、`table` 
+> 不是所有的元素模式都能产生`BFC`，`W3C`规范：`display` 属性为`block` 、`list-item` 、`table` 的元素，会产生`BFC`
 3. 什么情况下可以让元素产生`BFC`
 4. `BFC`元素所具有的特性
 5. `BFC`的主要用途
