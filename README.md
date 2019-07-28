@@ -371,5 +371,13 @@ main {
 - `display` 为`inline-block` ，`table-cell` ，`table-caption` ，`flex`,`inline-flex`
 - `overflow` 不为 `visible`
 4. `BFC`元素所具有的特性
+`BFC`布局规则特性：
+- 在`BFC`中，盒子从顶端开始垂直地一个接一个地排列
+- 盒子垂直方向的距离由`margin` 决定。属于同一个`BFC`的两个相邻盒子的`margin`会发生重叠
+- 在`BFC`中，每一个盒子的左外边缘（margin-left）会触碰到容器的左边缘(border-left)（对于从右到左的格式来说，则触碰到右边缘）
 5. `BFC`的主要用途
+- 清除元素内部浮动
+> 只要把父元素设为`BFC`就可以清理子元素的浮动了，最常见的用法就是在父元素是哪个设置`overflow: hidden`样式，对于`IE6`加上`zoom:1`就可以了。
+
+主要用到了`BFC`的高度时，自然也会检测浮动的盒子高度。
 6. `BFC`总结
