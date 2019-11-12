@@ -407,6 +407,7 @@ main {
 div {
   border: 10px solid hsla(0, 0%, 100%, .5);
   background: skyblue;
+  background-clip: padding-box; // 利用内边距的外延把背景裁剪掉
 }
 
 ```
