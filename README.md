@@ -406,7 +406,7 @@ main {
 
 div {
   border: 10px solid hsla(0, 0%, 100%, .5);
-  background: wheat;
+  background: skyblue;
 }
 
 ```
