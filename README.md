@@ -420,7 +420,7 @@ div {
 ```css 
 div {
   background: skyblue;
-  box-shadow: 0 0 0 10px #655;
+  box-shadow: 0 0 0 10px #655, 0 0 0 15px deeppink;
 }
 
 ```
