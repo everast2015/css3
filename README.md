@@ -421,6 +421,6 @@ div {
 div {
   background: skyblue;
   box-shadow: 0 0 0 10px #655, 0 0 0 15px wheat;
+  /* 利用box-shadow 可以设置多个投影的属性，可以设置页面的多重变量的问题 */
 }
-
 ```
