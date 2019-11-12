@@ -440,5 +440,5 @@ div {
   border: 10px solid wheat;
   outline: 5px solid green;
 }
-
+/* 最终的效果和box-shadow是一样的 */
 ```
