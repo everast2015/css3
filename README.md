@@ -430,3 +430,15 @@ div {
 ![半透明边框实现效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-2.png)
 
 另outline方案
+
+两层边框的实现方案：
+
+```css
+
+div {
+  background: skyblue;
+  border: 10px solid wheat;
+  outline: 5px solid green;
+}
+
+```
