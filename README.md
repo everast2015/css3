@@ -424,3 +424,7 @@ div {
   /* 利用box-shadow 可以设置多个投影的属性，可以设置页面的多重变量的问题 */
 }
 ```
+
+最终的效果：
+
+![半透明边框实现效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-1.png)
