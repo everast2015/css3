@@ -401,3 +401,12 @@ main {
 ### 第一章
 
 1. 半透明边框的实现方法
+
+```css
+
+div {
+  border: 10px solid hsla(0, 0%, 100%, .5);
+  background: wheat;
+}
+
+```
