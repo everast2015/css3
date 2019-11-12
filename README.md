@@ -414,3 +414,5 @@ div {
 最终的效果：
 
 ![半透明边框实现效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-1.png)
+
+2. 多重边框的解决方案
