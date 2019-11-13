@@ -473,7 +473,8 @@ div {
   border-radius: .8em;
   padding: 1em;
   box-shadow: 0 0 0 .6em #655;
-  outline: .6em solid #655;
+  outline: .6em solid #655; 
+  /* 这个属性的话，就是描述轮廓的，宽度，粗细，颜色值 */
 }
 
 ```
