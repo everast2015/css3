@@ -465,3 +465,5 @@ div {
 }
 ```
 ![圆角实现的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-4.png)
+
+一个元素也可以达到这样的效果：
