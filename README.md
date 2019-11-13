@@ -585,7 +585,9 @@ div {
   background-image: 
                    linear-gradient(white 2px, transparent 0),
                    linear-gradient(90deg, white 2px, transparent 0 ),
+                   linear-gradient(hsla(0, 0%, 100%, .3) 1px, transparent 0),
                    linear-gradient(hsla(0, 0%, 100%, .3) 1px, transparent 0)
+
 }
 
 ```
