@@ -494,3 +494,13 @@ div {
 我们看一下最终的效果：
 
 ![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5.png)
+
+两个色标拉近一些：
+
+```css
+div {
+  background: linear-gradient(#fb3 20%, #58a 80%);
+}
+
+```
+![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5-1.png)
