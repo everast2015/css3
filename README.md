@@ -600,6 +600,7 @@ div {
 div {
   background: #655;
   background-image: radial-gradient(tan 30%, transparent 0);
+  background-size: 30px 30px;
 }
 
 ```
