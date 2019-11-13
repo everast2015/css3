@@ -615,5 +615,6 @@ div {
 ```css
 div {
   background: linear-gradient(90deg, #fb3 15%, #655 0, #655 40%,#ab4 0, #ab4 65%, hsl(20, 40%, 90%) 0);
+  background-size: 80px 100%;
 }
 ```
