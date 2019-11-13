@@ -504,3 +504,13 @@ div {
 
 ```
 ![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5-1.png)
+
+两个色标的值都是50%的时候，是什么效果：
+
+```css
+div {
+  background: linear-gradient(#fb3 50%, #58a 50%);
+}
+
+```
+![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5-2.png)
