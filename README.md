@@ -533,10 +533,13 @@ div {
 
 - 垂直条纹的实现
 
+```css
+div {
+  background: linear-gradient(90deg,#fb3 50%, #58a 50%);
+  background-size: 100% 30px;
+}
 
-
-
-
+```
 
 
 
