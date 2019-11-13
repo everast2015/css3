@@ -467,3 +467,13 @@ div {
 ![圆角实现的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-4.png)
 
 一个元素也可以达到这样的效果：
+```css
+div {
+  background: wheat;
+  border-radius: .8em;
+  padding: 1em;
+  box-shadow: 0 0 0 .6em #655;
+  outline: .6em solid #655;
+}
+
+```
