@@ -486,3 +486,14 @@ div {
 5. 条纹效果
 
 解决方案：
+
+垂直线性渐变：
+
+```css
+div {
+  background: linear-gradient(#fb3, #58a);
+}
+
+```
+我们看一下最终的效果：
+![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-4-1.png)
