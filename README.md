@@ -485,10 +485,6 @@ div {
 
 5. 条纹效果
 
-解决方案：
-
-垂直线性渐变：
-
 ```css
 div {
   background: linear-gradient(#fb3, #58a);
