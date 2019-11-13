@@ -542,6 +542,8 @@ div {
 ```
 ![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5-4.png)
 
+- 斜向条纹
+
 
 
 
