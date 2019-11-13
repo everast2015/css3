@@ -558,6 +558,10 @@ div {
 - 网格
 
 ```css
+div {
+  background: white;
+  background-image: linear-gradient();
+}
 
 ```
 
