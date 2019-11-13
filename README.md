@@ -482,3 +482,5 @@ div {
 最终的实现效果：
 
 ![一种效果实现内外圆角](https://github.com/everast2015/css3/blob/master/css-scret-img/1-4-1.png)
+
+5. 条纹效果
