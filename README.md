@@ -580,6 +580,13 @@ div {
 ![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-6-1.png)
 
 ```css
+div {
+  background: #58a;
+  background-image: 
+                   linear-gradient(white 2px, transparent 0),
+                   linear-gradient(90deg, white 2px, transparent 0 ),
+                   linear-gradient(hsla(0, 0%, 100%, .3) 1px, transparent 0)
+}
 
 ```
 
