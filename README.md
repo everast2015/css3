@@ -519,6 +519,14 @@ div {
 
 我们设置一个背景图像的大小:
 
+```css
+div {
+  background: linear-gradient(#fb3 50%, #58a 50%);
+  background: 100% 30px;
+}
+
+```
+
 
 
 
