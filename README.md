@@ -599,6 +599,7 @@ div {
 
 div {
   background: #655;
+  background-image: radial-gradient(tan 30%, transparent 0);
 }
 
 ```
