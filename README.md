@@ -506,6 +506,7 @@ div {
 ![线性渐变可以实现条纹的效果](https://github.com/everast2015/css3/blob/master/css-scret-img/1-5-1.png)
 
 两个色标的值都是50%的时候，是什么效果：
+如果都是50%的话，那就没有什么渐变的效果了，只有两块实色，各占据了background-image 一般的面积，本质上，我们创建了两条巨大的水平条纹
 
 ```css
 div {
