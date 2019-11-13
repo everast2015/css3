@@ -560,7 +560,7 @@ div {
 ```css
 div {
   background: white;
-  background-image: linear-gradient();
+  background-image: linear-gradient(90deg, rgba(200,0,0,.5) 50%, transparent 0),linear-gradient();
 }
 
 ```
