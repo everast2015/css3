@@ -595,3 +595,11 @@ div {
 
 - 波点
 
+```css
+
+div {
+  background: #655;
+}
+
+```
+
