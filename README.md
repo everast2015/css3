@@ -443,6 +443,4 @@ div {
 /* 最终的效果和box-shadow是一样的 */
 ```
 
-3. 灵活的背景定位
-
-- 1、方法一 background-position 方案
+4. 边框内圆角
