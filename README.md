@@ -485,6 +485,8 @@ div {
 
 5. 条纹效果
 
+- 水平条纹的实现
+
 ```css
 div {
   background: linear-gradient(#fb3, #58a);
