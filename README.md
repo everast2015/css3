@@ -544,6 +544,13 @@ div {
 
 - 斜向条纹
 
+```css
+div {
+  background: linear-gradient(45deg, #fb3 50%, #58a 0);
+}
+
+```
+
 
 
 
