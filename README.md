@@ -572,7 +572,8 @@ div {
 div {
   background: #58a;
   background-image: linear-gradient(white 1px, transparent 0),
-  linear-gradient(90deg, white 1px, transparent 0)
+  linear-gradient(90deg, white 1px, transparent 0);
+  background-size: 30px 30px;
 }
 
 ```
